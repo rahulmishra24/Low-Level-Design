@@ -1,6 +1,4 @@
-package org.example.DesignPattern.BuilderPattern.v2;
-
-import org.example.DesignPattern.BuilderPattern.v2.SubwaySandwich;
+package org.com.DesignPattern.BuilderPattern.BuilderPattern.v2;
 
 public class Client {
 

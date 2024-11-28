@@ -1,4 +1,4 @@
-package org.example.DesignPattern.BuilderPattern.v1;
+package org.com.DesignPattern.BuilderPattern.BuilderPattern.v1;
 
 public class Client {
     public static void main(String[] args){

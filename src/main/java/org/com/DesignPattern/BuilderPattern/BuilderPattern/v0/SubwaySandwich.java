@@ -1,4 +1,4 @@
-package org.example.DesignPattern.BuilderPattern.v0;
+package org.com.DesignPattern.BuilderPattern.BuilderPattern.v0;
 
 public class SubwaySandwich {
 

@@ -1,4 +1,4 @@
-package org.example.DesignPattern.BuilderPattern.v2;
+package org.com.DesignPattern.BuilderPattern.BuilderPattern.v1;
 
 public class SubwaySandwich {
 
@@ -8,14 +8,14 @@ public class SubwaySandwich {
     public String condiments;
 
 
-    private SubwaySandwich(Builder b ){
+    public SubwaySandwich(Builder b ){
         this.bread = b.bread;
         this.veggies = b.veggies;
         this.condiments = b.condiments;
         this.fillings = b.fillings;
     }
 
-    public static Builder getBuilder(){
+    public static  Builder getBuilder(){
         return new Builder();
     }
 
@@ -27,25 +27,21 @@ public class SubwaySandwich {
         public String condiments;
 
 
-        public Builder setBread(String bread) {
+        public void setBread(String bread) {
             this.bread = bread;
-            return this;
         }
 
-        public Builder setCondiments(String condiments) {
+        public void setCondiments(String condiments) {
             this.condiments = condiments;
-            return this;
         }
 
-        public Builder setFillings(String fillings) {
+        public void setFillings(String fillings) {
             this.fillings = fillings;
-            return this;
         }
 
-        public Builder setVeggies(String veggies) {
+        public void setVeggies(String veggies) {
 
-            this.veggies = veggies;
-            return this;
+         this.veggies = veggies;
         }
 
         public SubwaySandwich build(){
